@@ -23,7 +23,6 @@ def lambda_handler(event, context):
     return lex_response
 
 def get_chatbot_response(user_input):
-    # Implement your logic to generate a response based on user input
     # You can use if-else statements, switch cases, or even integrate with other AWS services
     # For simplicity, let's return a static response in this example
     if user_input.lower() == 'hello':
